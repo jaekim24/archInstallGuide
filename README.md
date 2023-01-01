@@ -45,7 +45,7 @@ Now you're back to the arch enviroment.
 ## Partitioning the disk
 If you have a nvme (M.2) you're going to 
 ```
-cfdisk /dev/nvme
+cfdisk /dev/nvme0n1
 ```
 You can do ```lsblk``` to see if you dont know. You'll see nvme0n1 if you have a nvme or sda if you have a SSD.
 
@@ -62,7 +62,7 @@ If it asks you
 |       sgi       | 
 |       sun       | 
 
-Select gpt. Some of you may not see that and that is okay.
+Select **gpt**. Some of you may not see that and that is okay.
 
 ### Creating the boot partition
 
