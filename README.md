@@ -25,6 +25,7 @@ _If you can't see the wifi networks then do_
 ```
 rfkill unblock all
 ```
+_If that doesn't work do_ ```dchpcd```
 
 Connect to the internet. Type your wifi password in. 
 ```
@@ -191,6 +192,44 @@ To specify the locale, create a file by
 vim /etc/locale.conf    
 ```
 Press ```i``` this will get you into insert mode so you can type stuff in the file and type ```LANG=en_US.UTF-8```. Press ```ESC``` on the keyboard to go into normal mode.To save the file and leave type ```:wq```
+
+## Declaring the host name 
+Create a file ```hostname``` in the /etc directory
+```vim /etc/hostname```
+Type in the name you want. Then save and exit vim.  
+
+## Creating the root password
+```passwd``` 
+
+# Adding a user
+``` useradd -m -G wheel -s /bin/bash type_a_username```
+
+To set a user password
+```passwd type_a_username``
+
+# Creating sudo
+```EDITOR=vim visudo```
+Find ```# %wheel ALL=(ALL) ALL``` and uncomment the ```#``` then save and quit
+
+## Enabling networkmanager
+```systemctl enable NetworkManager```
+
+## Setting up grub
+```grub-install /dev/sda```
+config grub
+```grub-mkconfig -o /boot/grub/grub.cfg```
+exit by ```exit```
+
+## Exiting archiso
+```umount -a```
+```reboot```
+
+## Setting up Awesome WM
+
+
+
+
+
 
 
 
