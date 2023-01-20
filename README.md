@@ -226,6 +226,7 @@ exit by ```exit```
 
 ## Update your arch every biweekly 
 use ```sudo pacman -Syu```
+
 if there's issue about invalid something do this
 ```sudo pacman -Sy archlinux-keyring && sudo pacman -Su```
 
