@@ -1,12 +1,14 @@
 # Installation Guide
 BTW I use arch
 
-## Flashing the arch iso to a flash drive
-Flash the arch iso to a flash drive. [Here is the page to the arch .iso file , scroll down and click a link that's under your country. Then download the file that ends with **.iso**](https://archlinux.org/download/)  You can use rufus to flash the iso to the flash drive if you're on windows.
 
 ### ** issue **
 If you ever run into an issue about keyring is corrupted use this 
 ```sudo pacman -S archlinux-keyring```
+
+
+## Flashing the arch iso to a flash drive
+Flash the arch iso to a flash drive. [Here is the page to the arch .iso file , scroll down and click a link that's under your country. Then download the file that ends with **.iso**](https://archlinux.org/download/)  You can use rufus to flash the iso to the flash drive if you're on windows.
 
 Boot from the newly flashed drive (on a lenovo laptop constantly press F12 on start up and go to the newly flashed flash drive).
 
