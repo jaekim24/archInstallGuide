@@ -6,7 +6,7 @@ Flash the arch iso to a flash drive. [Here is the page to the arch .iso file , s
 
 ** issue **
 If you ever run into an issue about keyring is corrupted use this 
-'''sudo pacman -S archlinux-keyring''' 
+```sudo pacman -S archlinux-keyring```
 
 Boot from the newly flashed drive (on a lenovo laptop constantly press F12 on start up and go to the newly flashed flash drive).
 
