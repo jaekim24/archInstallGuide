@@ -9,6 +9,8 @@ If you ever run into an issue about keyring is corrupted use this
 cant connect to wifi using networkmanager then use iwd (iwctl)
 ```h[ttps://www.youtube.com/watch?v=-Dg4WjVu_E0&t=117s](https://www.youtube.com/watch?v=hnwoek_4MXQ)```
 
+if lightdm fails
+```https://www.debugpoint.com/failed-to-start-lightdm/```
 
 ## Flashing the arch iso to a flash drive
 Flash the arch iso to a flash drive. [Here is the page to the arch .iso file , scroll down and click a link that's under your country. Then download the file that ends with **.iso**](https://archlinux.org/download/)  You can use rufus to flash the iso to the flash drive if you're on windows.
