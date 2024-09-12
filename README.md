@@ -163,7 +163,7 @@ To change root
 arch-chroot /mnt
 ```
 ### Setting the timezone
-You can change the country and sub zone. _Example: Asia/Dubia_ instead of country/subzone_
+You can change the country and sub zone. _Example: America/New_York instead of country/subzone_
 ```
 ln -sf /usr/share/zoneinfo/country/subzone /etc/localtime
 ```
