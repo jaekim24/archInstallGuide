@@ -140,7 +140,7 @@ pacstrap /mnt base linux linux-firmware sof-fimware base-devel grub efibootmgr v
 
 Don't do this because this is the packages I want.
 ```
-pacstrap /mnt base linux linux-firmware sof-firmware base-devel grub efibootmgr vim networkmanager alacritty polybar nitrogen  neofetch ranger dmenu
+pacstrap /mnt base linux linux-firmware sof-firmware base-devel grub efibootmgr vim networkmanager dhcpcd reflector alacritty polybar nitrogen  neofetch ranger dmenu 
 ```
 
 ## Generating the file system tab
