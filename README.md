@@ -6,8 +6,8 @@ BTW I use arch
 If you ever run into an issue about keyring is corrupted use this 
 ```sudo pacman -S archlinux-keyring```
 
-cant connect to wifi (cant get ip config) 
-```https://www.youtube.com/watch?v=-Dg4WjVu_E0&t=117s```
+cant connect to wifi using networkmanager then use iwd (iwctl)
+```h[ttps://www.youtube.com/watch?v=-Dg4WjVu_E0&t=117s](https://www.youtube.com/watch?v=hnwoek_4MXQ)```
 
 
 ## Flashing the arch iso to a flash drive
